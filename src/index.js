@@ -5,6 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { StateProvider } from './StateProvider';
 import reducer, { initialState } from "./reducer"
+import registerServiceWorker from 'react-service-worker';
+
 
 ReactDOM.render(
   <React.StrictMode>
